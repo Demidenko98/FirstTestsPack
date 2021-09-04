@@ -1,14 +1,13 @@
 ﻿using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Allure.Commons;
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
 using YandexE2Etests.Pages;
 
 namespace YandexE2Etests.Tests
 {
     [TestFixture]
+    [AllureNUnit]
     class YandexLoginTests
     {
 

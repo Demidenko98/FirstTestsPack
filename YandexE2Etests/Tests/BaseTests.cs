@@ -3,9 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using YandexE2Etests.Core;
-
+using YandexE2Etests.Pages;
 
 namespace YandexE2Etests
 {
@@ -15,17 +16,17 @@ namespace YandexE2Etests
 
         DriverWrapper driver = DriverWrapper.GetInstance();
 
-        [OneTimeSetUp]
+        [SetUp]
         public void OneTimeSetUp()
         {
-            //   driver.GetDriver();
+         //   new BasePage().SwitchToParentVideo();
         }
 
 
         [TearDown]
         public void CloseBrowser()
         {
-            driver.Close();
+           // driver.Close();
         }
 
     }

@@ -38,6 +38,13 @@ namespace YandexE2Etests.Pages
             InsDriver.SwitchTo().Window(InsDriver.WindowHandles[framenumber]);
         }
 
+        public void SwitchToParentVideo()
+        {
+            string winHandleBefore = InsDriver.CurrentWindowHandle;
+
+            InsDriver.SwitchTo().Window(winHandleBefore); 
+        }
+
         public void ElementIsDisplayed(By locator)
         {
             waits.ElementIsVisible(locator);

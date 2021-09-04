@@ -27,3 +27,8 @@ D:\papka\AQA\YandexE2Etests\YandexE2Etests\obj\Debug\YandexE2Etests.csproj.CoreC
 D:\papka\AQA\YandexE2Etests\YandexE2Etests\obj\Debug\YandexE2Etests.csproj.CopyComplete
 D:\papka\AQA\YandexE2Etests\YandexE2Etests\obj\Debug\YandexE2Etests.dll
 D:\papka\AQA\YandexE2Etests\YandexE2Etests\obj\Debug\YandexE2Etests.pdb
+D:\papka\AQA\YandexE2Etests\YandexE2Etests\bin\Debug\Allure.Commons.dll
+D:\papka\AQA\YandexE2Etests\YandexE2Etests\bin\Debug\MimeTypesMap.dll
+D:\papka\AQA\YandexE2Etests\YandexE2Etests\bin\Debug\Newtonsoft.Json.dll
+D:\papka\AQA\YandexE2Etests\YandexE2Etests\bin\Debug\NUnit.Allure.dll
+D:\papka\AQA\YandexE2Etests\YandexE2Etests\bin\Debug\Newtonsoft.Json.xml

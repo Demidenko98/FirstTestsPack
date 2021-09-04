@@ -49,7 +49,7 @@ namespace YandexE2Etests.Core
 
             else
             {
-                driver.Quit();
+                driver.Close();
                 driver = null;
             }
 
