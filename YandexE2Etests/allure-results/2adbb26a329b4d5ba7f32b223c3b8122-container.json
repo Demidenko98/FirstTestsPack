@@ -1,0 +1,12 @@
+{
+  "uuid": "286706b1-fa0e-4537-b27e-b8f3a4c628f7-tc-0-1004",
+  "name": "YandexE2Etests.Tests.YandexLoginTests.InvalidLogin",
+  "children": [
+    "5431be44-aa9b-468d-94cc-b0be7f6c0faf-tr-0-1008"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1631215370888,
+  "stop": 1631215382092
+}

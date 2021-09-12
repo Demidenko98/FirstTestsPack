@@ -1,0 +1,91 @@
+{
+  "uuid": "4c09591d-ee6a-434c-a889-0bf199d57b65-tr-0-1012",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation3",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation3",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "NewsNavigation3"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "NewsNavigation3",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "NewsNavigation3"
+  },
+  "stage": "finished",
+  "description": "News Navigation\n",
+  "steps": [
+    {
+      "name": "NewsNavigation3",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "54685e6d6ec64ac4a46a93df3de42fdf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630763733112,
+      "stop": 1630763736447
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630763733111,
+  "stop": 1630763736455
+}

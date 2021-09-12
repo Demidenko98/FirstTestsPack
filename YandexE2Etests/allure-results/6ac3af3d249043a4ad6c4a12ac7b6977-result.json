@@ -1,0 +1,64 @@
+{
+  "uuid": "f7b3a401-bbd8-4b61-8f1c-724f84d2b393-tr-0-1006",
+  "historyId": "YandexE2Etests.Tests.YandexLoginTests.CheckIfUserCanLogOut",
+  "fullName": "YandexE2Etests.Tests.YandexLoginTests.CheckIfUserCanLogOut",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexLoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfUserCanLogOut"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexLoginTests"
+    }
+  ],
+  "links": [],
+  "name": "CheckIfUserCanLogOut",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckIfUserCanLogOut"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckIfUserCanLogOut",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "85f096452d304c2587228332cc6f36d2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1631215959909,
+      "stop": 1631215964883
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1631215959908,
+  "stop": 1631215964886
+}

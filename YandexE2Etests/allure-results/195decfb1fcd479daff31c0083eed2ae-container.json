@@ -1,0 +1,12 @@
+{
+  "uuid": "2bc2afdd-f5c8-4696-a667-8d3eac634a2f-tc-0-1009",
+  "name": "YandexE2Etests.Tests.YandexNavigationTests.MapsNavigation",
+  "children": [
+    "840246dc-9e34-46f5-9063-0c121a899ff8-tr-0-1013"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1630698360793,
+  "stop": 1630698366270
+}

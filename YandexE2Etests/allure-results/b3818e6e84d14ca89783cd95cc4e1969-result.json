@@ -1,0 +1,91 @@
+{
+  "uuid": "4782e6a4-2600-4762-8909-7231e6d474b4-tr-0-1013",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.MapsNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.MapsNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "MapsNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "MapsNavigation",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "MapsNavigation"
+  },
+  "stage": "finished",
+  "description": "Maps Navigation\n",
+  "steps": [
+    {
+      "name": "MapsNavigation",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6c672d8a335d40c0b43b80460308bc19-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1631042740688,
+      "stop": 1631042742281
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1631042740686,
+  "stop": 1631042742286
+}

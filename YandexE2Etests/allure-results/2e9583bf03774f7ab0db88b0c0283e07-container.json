@@ -1,0 +1,12 @@
+{
+  "uuid": "2392c546-c949-4d8f-a3a9-e9d7b4c9b496-tc-0-1004",
+  "name": "YandexE2Etests.Tests.YandexLoginTests.CheckIfUserCanLogOut",
+  "children": [
+    "db3f48af-6f5e-45dc-9a3c-1a4bde0811f6-tr-0-1006"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1631215360520,
+  "stop": 1631215370879
+}

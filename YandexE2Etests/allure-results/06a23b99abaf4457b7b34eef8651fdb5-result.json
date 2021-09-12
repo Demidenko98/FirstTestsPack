@@ -1,0 +1,94 @@
+{
+  "uuid": "b41b52c1-20b8-4b10-9597-6d611ad5c746-tr-0-1013",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.MapsNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.MapsNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "MapsNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "MapsNavigation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: String containing \"https://yandex.by/maps\"\r\n  But was:  \"https://market.yandex.by/showcaptcha?cc=1&retpath=https%3A//market.yandex.by/%3Fclid%3D505%26utm_source%3Dmain_stripe_big%26wprid%3D1630698641.35548.97914.6223%26src_pof%3D505%26utm_source_service%3Dmorda_f717d94b3edc1f752a0434fb1bd57eac&t=2/1630698644/faf1fb0a99e36d5cc1c82a155e8d8aef&u=51349778-ee5d80ac-b5873aea-8aaca5e9&s=11586d13790f4e0b79abbbf33125ed30\"\r\n",
+    "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.MapsNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 93\r\n"
+  },
+  "stage": "finished",
+  "description": "Maps Navigation\n",
+  "steps": [
+    {
+      "name": "MapsNavigation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: String containing \"https://yandex.by/maps\"\r\n  But was:  \"https://market.yandex.by/showcaptcha?cc=1&retpath=https%3A//market.yandex.by/%3Fclid%3D505%26utm_source%3Dmain_stripe_big%26wprid%3D1630698641.35548.97914.6223%26src_pof%3D505%26utm_source_service%3Dmorda_f717d94b3edc1f752a0434fb1bd57eac&t=2/1630698644/faf1fb0a99e36d5cc1c82a155e8d8aef&u=51349778-ee5d80ac-b5873aea-8aaca5e9&s=11586d13790f4e0b79abbbf33125ed30\"\r\n",
+        "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.MapsNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 93\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "21179bbbe81b43ec8f6fb6bd576088ea-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630698644041,
+      "stop": 1630698645900
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630698644040,
+  "stop": 1630698645904
+}

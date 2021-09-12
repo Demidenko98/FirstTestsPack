@@ -1,0 +1,12 @@
+{
+  "uuid": "8f8aa73d-5c0a-41b0-9279-d0539593eae9-tc-0-1009",
+  "name": "YandexE2Etests.Tests.YandexNavigationTests.MusicNavigation",
+  "children": [
+    "1bfbd269-e687-4436-9e03-c6c2985ebf31-tr-0-1016"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1630698157395,
+  "stop": 1630698159190
+}

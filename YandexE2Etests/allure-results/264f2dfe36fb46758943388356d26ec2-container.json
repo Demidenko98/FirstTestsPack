@@ -1,0 +1,44 @@
+{
+  "uuid": "697f4879-4531-4f64-81b9-5458af8b1055-tc-0-1009",
+  "name": "YandexE2Etests.Tests.YandexNavigationTests.MapsNavigation",
+  "children": [
+    "a6d5de8b-4c69-45ed-ba73-c2993c877bbe-tr-0-1013"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630701030834,
+      "stop": 1630701030834
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630701030835,
+      "stop": 1630701030835
+    }
+  ],
+  "links": [],
+  "start": 1630701029677,
+  "stop": 1630701030912
+}

@@ -1,0 +1,68 @@
+{
+  "uuid": "1e9180a3-d7d3-4b83-90f4-c24914498559-tr-0-1010",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.VideoNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.VideoNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VideoNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "VideoNavigation",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "VideoNavigation"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VideoNavigation",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "caafde770d144ae4ab7fd30c31f421bb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630695670372,
+      "stop": 1630695673357
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630695670371,
+  "stop": 1630695673362
+}

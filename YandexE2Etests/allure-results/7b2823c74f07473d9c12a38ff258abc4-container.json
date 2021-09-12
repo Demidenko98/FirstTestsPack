@@ -1,0 +1,46 @@
+{
+  "uuid": "d6de8aac-8f2c-45ea-9757-f724384188e3-tc-0-1009",
+  "name": "YandexE2Etests.Tests.YandexNavigationTests.MusicNavigation",
+  "children": [
+    "6a818a5e-954a-4bab-9dc2-5a02c196eb64-tr-0-1016"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630701891691,
+      "stop": 1630701891691
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 55 but was 50. Strings differ at index 8.\r\n  Expected: \"https://music.yandex.by/home?utm_source=main_stripe_big\"\r\n  But was:  \"https://yandex.by/news/?utm_source=main_stripe_big\"\r\n  -------------------^\r\n\r\nTearDown : OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=93.0.4577.63)",
+        "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.MusicNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 144\r\n\r\n--TearDown\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Close()\r\n   в YandexE2Etests.Core.DriverWrapper.Close() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Core\\DriverWrapper.cs:строка 52\r\n   в YandexE2Etests.BaseTests.CloseBrowser() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\BaseTests.cs:строка 29"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630701891691,
+      "stop": 1630701891691
+    }
+  ],
+  "links": [],
+  "start": 1630701889851,
+  "stop": 1630701891720
+}

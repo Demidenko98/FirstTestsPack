@@ -1,0 +1,94 @@
+{
+  "uuid": "d36bc71f-d6a2-441c-885e-db8177e5f51d-tr-0-1011",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation2",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation2",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PicturesNavigation2"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "PicturesNavigation2",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 52 but was 50. Strings differ at index 18.\r\n  Expected: \"https://yandex.by/images/?utm_source=main_stripe_big\"\r\n  But was:  \"https://yandex.by/news/?utm_source=main_stripe_big\"\r\n  -----------------------------^\r\n",
+    "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation2() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 58\r\n"
+  },
+  "stage": "finished",
+  "description": "Pictures Navigation\n",
+  "steps": [
+    {
+      "name": "PicturesNavigation2",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 52 but was 50. Strings differ at index 18.\r\n  Expected: \"https://yandex.by/images/?utm_source=main_stripe_big\"\r\n  But was:  \"https://yandex.by/news/?utm_source=main_stripe_big\"\r\n  -----------------------------^\r\n",
+        "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation2() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 58\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "681f8c0ccb9845b5a5c8d03d80e863fa-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630763733112,
+      "stop": 1630763736491
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630763733111,
+  "stop": 1630763736491
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "f3f54f6c-fd2f-4332-97dc-4f9ad17465af-tc-0-1004",
+  "name": "YandexE2Etests.Tests.YandexLoginTests.LogInAndCheckAccName",
+  "children": [
+    "01b09b24-26d0-489f-a7b4-63ec34cc10b6-tr-0-1005"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1631476417218,
+      "stop": 1631476417218
+    }
+  ],
+  "afters": [
+    {
+      "name": "QuitBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1631476417218,
+      "stop": 1631476417218
+    }
+  ],
+  "links": [],
+  "start": 1631476408435,
+  "stop": 1631476417220
+}

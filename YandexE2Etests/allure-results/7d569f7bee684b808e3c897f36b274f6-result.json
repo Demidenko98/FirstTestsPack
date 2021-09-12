@@ -1,0 +1,94 @@
+{
+  "uuid": "c35eb437-4e94-4a9a-af0b-797ac65abd5e-tr-0-1012",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "NewsNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "NewsNavigation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 50 but was 90. Strings differ at index 18.\r\n  Expected: \"https://yandex.by/news/?utm_source=main_stripe_big\"\r\n  But was:  \"https://yandex.by/maps/157/minsk/?ll=27.561481%2C53.902496&ut...\"\r\n  -----------------------------^\r\n",
+    "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 79\r\n"
+  },
+  "stage": "finished",
+  "description": "News Navigation\n",
+  "steps": [
+    {
+      "name": "NewsNavigation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 50 but was 90. Strings differ at index 18.\r\n  Expected: \"https://yandex.by/news/?utm_source=main_stripe_big\"\r\n  But was:  \"https://yandex.by/maps/157/minsk/?ll=27.561481%2C53.902496&ut...\"\r\n  -----------------------------^\r\n",
+        "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 79\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "16ec19ad168d4e46bb2bfe89365e9f81-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630763869927,
+      "stop": 1630763870188
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630763869927,
+  "stop": 1630763870188
+}

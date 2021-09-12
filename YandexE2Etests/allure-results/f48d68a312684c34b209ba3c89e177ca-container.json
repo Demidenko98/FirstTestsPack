@@ -1,0 +1,12 @@
+{
+  "uuid": "ba9c6345-edcb-4305-ac7e-fd1919f63b8d-tc-0-1004",
+  "name": "YandexE2Etests.Tests.YandexLoginTests.LogInAndCheckAccName",
+  "children": [
+    "debeb261-4681-4e90-a1bc-88747cc9ef4f-tr-0-1005"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1631218126387,
+  "stop": 1631218130338
+}

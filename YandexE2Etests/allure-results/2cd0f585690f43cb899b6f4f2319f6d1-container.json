@@ -1,0 +1,44 @@
+{
+  "uuid": "f23ad583-6eba-458a-84c3-0a04e9eebdd9-tc-0-1009",
+  "name": "YandexE2Etests.Tests.YandexNavigationTests.MarketNavigation",
+  "children": [
+    "e905c1de-75ff-4755-a085-3d15ccaa3b98-tr-0-1014"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630862007888,
+      "stop": 1630862007888
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630862007888,
+      "stop": 1630862007888
+    }
+  ],
+  "links": [],
+  "start": 1630862004680,
+  "stop": 1630862007981
+}

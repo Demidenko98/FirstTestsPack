@@ -1,0 +1,94 @@
+{
+  "uuid": "6c6ef86b-cfef-4a17-9aeb-45a0615d4fb0-tr-0-1012",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "NewsNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "NewsNavigation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 50 but was 55. Strings differ at index 8.\r\n  Expected: \"https://yandex.by/news/?utm_source=main_stripe_big\"\r\n  But was:  \"https://music.yandex.by/home?utm_source=main_stripe_big\"\r\n  -------------------^\r\n",
+    "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 79\r\n"
+  },
+  "stage": "finished",
+  "description": "News Navigation\n",
+  "steps": [
+    {
+      "name": "NewsNavigation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 50 but was 55. Strings differ at index 8.\r\n  Expected: \"https://yandex.by/news/?utm_source=main_stripe_big\"\r\n  But was:  \"https://music.yandex.by/home?utm_source=main_stripe_big\"\r\n  -------------------^\r\n",
+        "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 79\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8c2d8908fc4e439dbc4f341794e6167e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630763595936,
+      "stop": 1630763601493
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630763595936,
+  "stop": 1630763601493
+}

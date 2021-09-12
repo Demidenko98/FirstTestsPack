@@ -1,0 +1,44 @@
+{
+  "uuid": "271ff6b4-4fdc-4304-a7ce-910902d7be08-tc-0-1004",
+  "name": "YandexE2Etests.Tests.YandexLoginTests.CheckIfUserCanLogOut",
+  "children": [
+    "9a2bb5b2-4333-49cd-9776-03a435d59ca6-tr-0-1006"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1631476408373,
+      "stop": 1631476408373
+    }
+  ],
+  "afters": [
+    {
+      "name": "QuitBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1631476408373,
+      "stop": 1631476408373
+    }
+  ],
+  "links": [],
+  "start": 1631476398069,
+  "stop": 1631476408426
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "9c3ce0f8-7766-4b73-9ce6-341ad4ce9aba-tc-0-1009",
+  "name": "YandexE2Etests.Tests.YandexNavigationTests.MusicNavigation",
+  "children": [
+    "ae5e8378-bfea-4856-ba6c-b9c431d4946e-tr-0-1016"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630701945659,
+      "stop": 1630701945659
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630701945659,
+      "stop": 1630701945659
+    }
+  ],
+  "links": [],
+  "start": 1630701943251,
+  "stop": 1630701945728
+}

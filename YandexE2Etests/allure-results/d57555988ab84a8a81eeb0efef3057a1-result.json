@@ -1,0 +1,94 @@
+{
+  "uuid": "8a9642b7-8ed2-406a-a252-966f65ab38ec-tr-0-1016",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.MusicNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.MusicNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "MusicNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "MusicNavigation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 55 but was 358. Strings differ at index 9.\r\n  Expected: \"https://music.yandex.by/home?utm_source=main_stripe_big\"\r\n  But was:  \"https://market.yandex.by/showcaptcha?cc=1&retpath=https%3A//m...\"\r\n  --------------------^\r\n",
+    "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.MusicNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 144\r\n"
+  },
+  "stage": "finished",
+  "description": "Music Navigation\n",
+  "steps": [
+    {
+      "name": "MusicNavigation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 55 but was 358. Strings differ at index 9.\r\n  Expected: \"https://music.yandex.by/home?utm_source=main_stripe_big\"\r\n  But was:  \"https://market.yandex.by/showcaptcha?cc=1&retpath=https%3A//m...\"\r\n  --------------------^\r\n",
+        "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.MusicNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 144\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "805087ba335047bfba207a06894998e5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630698644041,
+      "stop": 1630698645991
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630698644040,
+  "stop": 1630698645992
+}

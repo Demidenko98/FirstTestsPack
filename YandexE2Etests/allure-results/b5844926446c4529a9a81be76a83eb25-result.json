@@ -1,0 +1,94 @@
+{
+  "uuid": "cdcde6f0-2a43-414a-8306-84a1b3cefbdf-tr-0-1011",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PicturesNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "PicturesNavigation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentOutOfRangeException : Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.\r\nИмя параметра: index",
+    "trace": "   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)\r\n   в System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   в System.Collections.ObjectModel.ReadOnlyCollection`1.get_Item(Int32 index)\r\n   в YandexE2Etests.Pages.BasePage.GoToFrame(Int32 framenumber) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Pages\\BasePage.cs:строка 40\r\n   в YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 55"
+  },
+  "stage": "finished",
+  "description": "Pictures Navigation\n",
+  "steps": [
+    {
+      "name": "PicturesNavigation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentOutOfRangeException : Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.\r\nИмя параметра: index",
+        "trace": "   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)\r\n   в System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   в System.Collections.ObjectModel.ReadOnlyCollection`1.get_Item(Int32 index)\r\n   в YandexE2Etests.Pages.BasePage.GoToFrame(Int32 framenumber) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Pages\\BasePage.cs:строка 40\r\n   в YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 55"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "021312d4406f424db5f8fd7c026f0e2b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1631047766048,
+      "stop": 1631047766510
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1631047766046,
+  "stop": 1631047766516
+}

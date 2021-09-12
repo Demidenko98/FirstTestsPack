@@ -1,0 +1,91 @@
+{
+  "uuid": "52166b5a-f689-43d6-b8c2-a2c8259ca38c-tr-0-1011",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PicturesNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "PicturesNavigation",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "PicturesNavigation"
+  },
+  "stage": "finished",
+  "description": "Pictures Navigation\n",
+  "steps": [
+    {
+      "name": "PicturesNavigation",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0f76a41ac4c747869c1135443fc3036c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630953741397,
+      "stop": 1630953742606
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630953741396,
+  "stop": 1630953742610
+}

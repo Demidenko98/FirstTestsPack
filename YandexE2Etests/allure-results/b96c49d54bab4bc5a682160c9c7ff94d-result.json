@@ -1,0 +1,67 @@
+{
+  "uuid": "9e331dd4-17c2-4509-ba91-ac82ee7c01f7-tr-0-1008",
+  "historyId": "YandexE2Etests.Tests.YandexLoginTests.InvalidLogin",
+  "fullName": "YandexE2Etests.Tests.YandexLoginTests.InvalidLogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexLoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "InvalidLogin"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexLoginTests"
+    }
+  ],
+  "links": [],
+  "name": "InvalidLogin",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentNullException : text cannot be null\r\nИмя параметра: text",
+    "trace": "   в OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   в YandexE2Etests.Pages.BasePage.SendKeys(By locator, String text) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Pages\\BasePage.cs:строка 25\r\n   в YandexE2Etests.Pages.LoginForm.EnterLogin() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Pages\\LoginForm.cs:строка 44\r\n   в YandexE2Etests.Tests.YandexLoginTests.InvalidLogin() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexLoginTests.cs:строка 56"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "InvalidLogin",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentNullException : text cannot be null\r\nИмя параметра: text",
+        "trace": "   в OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   в YandexE2Etests.Pages.BasePage.SendKeys(By locator, String text) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Pages\\BasePage.cs:строка 25\r\n   в YandexE2Etests.Pages.LoginForm.EnterLogin() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Pages\\LoginForm.cs:строка 44\r\n   в YandexE2Etests.Tests.YandexLoginTests.InvalidLogin() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexLoginTests.cs:строка 56"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1806512aeb70458bb10709b8a5f00b6c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1631302256550,
+      "stop": 1631302257820
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1631302256549,
+  "stop": 1631302257826
+}

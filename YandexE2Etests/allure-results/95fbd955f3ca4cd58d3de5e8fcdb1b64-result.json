@@ -1,0 +1,91 @@
+{
+  "uuid": "e623d062-a0bc-4aa5-a5b6-6e9201b060c9-tr-0-1015",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.TranslateNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.TranslateNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TranslateNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "TranslateNavigation",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TranslateNavigation"
+  },
+  "stage": "finished",
+  "description": "Translate Navigation\n",
+  "steps": [
+    {
+      "name": "TranslateNavigation",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7c23b4cf488c45f7baf4e4783af92d92-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630953696358,
+      "stop": 1630953697717
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630953696357,
+  "stop": 1630953697722
+}

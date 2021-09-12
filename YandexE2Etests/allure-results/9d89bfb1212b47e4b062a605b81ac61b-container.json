@@ -1,0 +1,12 @@
+{
+  "uuid": "42e80d23-c64b-47da-b6f7-4bd7964cb57d-tc-0-1009",
+  "name": "YandexE2Etests.Tests.YandexNavigationTests.MarketNavigation",
+  "children": [
+    "cae26745-2799-43da-a996-3b564d9ba419-tr-0-1014"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1630698360793,
+  "stop": 1630698371270
+}

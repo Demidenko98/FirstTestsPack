@@ -1,0 +1,91 @@
+{
+  "uuid": "261c34e2-2a4c-4db0-9d1e-bdbdf17007bf-tr-0-1010",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.VideoNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.VideoNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VideoNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "VideoNavigation",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "VideoNavigation"
+  },
+  "stage": "finished",
+  "description": "Video Navigation\n",
+  "steps": [
+    {
+      "name": "VideoNavigation",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5512d54795114234a0defd8b2310bd8b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1631473662199,
+      "stop": 1631473671088
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1631473662199,
+  "stop": 1631473671088
+}

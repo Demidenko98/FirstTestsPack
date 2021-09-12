@@ -1,0 +1,94 @@
+{
+  "uuid": "da6cdffa-750a-4d5c-91fd-a72699292ae9-tr-0-1015",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.TranslateNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.TranslateNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TranslateNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "TranslateNavigation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  String lengths are both 55. Strings differ at index 8.\r\n  Expected: \"https://translate.yandex.by/?utm_source=main_stripe_big\"\r\n  But was:  \"https://music.yandex.by/home?utm_source=main_stripe_big\"\r\n  -------------------^\r\n",
+    "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.TranslateNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 134\r\n"
+  },
+  "stage": "finished",
+  "description": "Translate Navigation\n",
+  "steps": [
+    {
+      "name": "TranslateNavigation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  String lengths are both 55. Strings differ at index 8.\r\n  Expected: \"https://translate.yandex.by/?utm_source=main_stripe_big\"\r\n  But was:  \"https://music.yandex.by/home?utm_source=main_stripe_big\"\r\n  -------------------^\r\n",
+        "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.TranslateNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 134\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4a2deb23072d45bbbb0f3f495cac67b2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630763601570,
+      "stop": 1630763601886
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630763601570,
+  "stop": 1630763601886
+}

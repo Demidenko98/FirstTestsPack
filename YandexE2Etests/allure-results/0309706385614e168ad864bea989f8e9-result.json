@@ -1,0 +1,67 @@
+{
+  "uuid": "4fcb7806-983b-4c2c-9c0e-2ebdea527b50-tr-0-1005",
+  "historyId": "YandexE2Etests.Tests.YandexLoginTests.LogInAndCheckAccName",
+  "fullName": "YandexE2Etests.Tests.YandexLoginTests.LogInAndCheckAccName",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexLoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LogInAndCheckAccName"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexLoginTests"
+    }
+  ],
+  "links": [],
+  "name": "LogInAndCheckAccName",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 16 but was 7. Strings differ at index 0.\r\n  Expected: \"here is my login\"\r\n  But was:  \"dem-fil\"\r\n  -----------^\r\n",
+    "trace": "   в YandexE2Etests.Tests.YandexLoginTests.LogInAndCheckAccName() в D:\\papka\\AQA\\YandexE2Etests — копия\\YandexE2Etests\\Tests\\YandexLoginTests.cs:строка 22\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LogInAndCheckAccName",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 16 but was 7. Strings differ at index 0.\r\n  Expected: \"here is my login\"\r\n  But was:  \"dem-fil\"\r\n  -----------^\r\n",
+        "trace": "   в YandexE2Etests.Tests.YandexLoginTests.LogInAndCheckAccName() в D:\\papka\\AQA\\YandexE2Etests — копия\\YandexE2Etests\\Tests\\YandexLoginTests.cs:строка 22\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "78dec1b937f247fe82b281d33e324608-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1631218179024,
+      "stop": 1631218182833
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1631218179023,
+  "stop": 1631218182837
+}

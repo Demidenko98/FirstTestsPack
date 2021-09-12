@@ -1,0 +1,94 @@
+{
+  "uuid": "748710c5-232c-4ecf-bd1c-ae4c08e00ace-tr-0-1011",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PicturesNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "PicturesNavigation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 52 but was 55. Strings differ at index 8.\r\n  Expected: \"https://yandex.by/images/?utm_source=main_stripe_big\"\r\n  But was:  \"https://music.yandex.by/home?utm_source=main_stripe_big\"\r\n  -------------------^\r\n",
+    "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 58\r\n"
+  },
+  "stage": "finished",
+  "description": "Pictures Navigation\n",
+  "steps": [
+    {
+      "name": "PicturesNavigation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 52 but was 55. Strings differ at index 8.\r\n  Expected: \"https://yandex.by/images/?utm_source=main_stripe_big\"\r\n  But was:  \"https://music.yandex.by/home?utm_source=main_stripe_big\"\r\n  -------------------^\r\n",
+        "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.PicturesNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 58\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "39a8313af8a64e8997b67dbcd8fcc755-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630763595936,
+      "stop": 1630763601484
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630763595936,
+  "stop": 1630763601485
+}

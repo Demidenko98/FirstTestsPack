@@ -1,0 +1,94 @@
+{
+  "uuid": "d027b144-1c9b-4f85-899f-ca0cf076c473-tr-0-1012",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "NewsNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "NewsNavigation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 50 but was 358. Strings differ at index 8.\r\n  Expected: \"https://yandex.by/news/?utm_source=main_stripe_big\"\r\n  But was:  \"https://market.yandex.by/showcaptcha?cc=1&retpath=https%3A//m...\"\r\n  -------------------^\r\n",
+    "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 76\r\n"
+  },
+  "stage": "finished",
+  "description": "News Navigation\n",
+  "steps": [
+    {
+      "name": "NewsNavigation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 50 but was 358. Strings differ at index 8.\r\n  Expected: \"https://yandex.by/news/?utm_source=main_stripe_big\"\r\n  But was:  \"https://market.yandex.by/showcaptcha?cc=1&retpath=https%3A//m...\"\r\n  -------------------^\r\n",
+        "trace": "   в YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 76\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bc031eca8e7a4f659e7dd95b0d62635a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630698644041,
+      "stop": 1630698645991
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630698644040,
+  "stop": 1630698645991
+}

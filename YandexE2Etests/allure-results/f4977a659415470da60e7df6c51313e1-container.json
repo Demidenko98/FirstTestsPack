@@ -1,0 +1,44 @@
+{
+  "uuid": "5e1bd02c-34cb-4d23-a568-c8b11499ad7c-tc-0-1009",
+  "name": "YandexE2Etests.Tests.YandexNavigationTests.NewsNavigation",
+  "children": [
+    "6c6ef86b-cfef-4a17-9aeb-45a0615d4fb0-tr-0-1012"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630763601491,
+      "stop": 1630763601491
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630763601491,
+      "stop": 1630763601491
+    }
+  ],
+  "links": [],
+  "start": 1630763595936,
+  "stop": 1630763601526
+}

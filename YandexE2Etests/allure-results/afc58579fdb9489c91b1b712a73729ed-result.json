@@ -1,0 +1,91 @@
+{
+  "uuid": "4fd0a565-adb5-42ec-b0c2-020c6be27833-tr-0-1014",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.MarketNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.MarketNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "MarketNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "NoAssert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "MarketNavigation",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "MarketNavigation"
+  },
+  "stage": "finished",
+  "description": "Market Navigation\n",
+  "steps": [
+    {
+      "name": "MarketNavigation",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "edbcf17d672a4106b85118267ebea1e6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1631047173380,
+      "stop": 1631047176700
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1631047173378,
+  "stop": 1631047176705
+}

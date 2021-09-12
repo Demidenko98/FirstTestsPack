@@ -1,0 +1,94 @@
+{
+  "uuid": "76f97bd5-3fbb-4897-9c85-fa49153192ca-tr-0-1010",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.VideoNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.VideoNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VideoNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "VideoNavigation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='tabs-navigation__tab-over-inner']\"}\n  (Session info: chrome=93.0.4577.63)",
+    "trace": "   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   в YandexE2Etests.Core.Waits.ElementIsVisible(By locator) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Core\\Waits.cs:строка 21\r\n   в YandexE2Etests.Pages.BasePage.GetText(By locator) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Pages\\BasePage.cs:строка 18\r\n   в YandexE2Etests.Tests.YandexNavigationTests.VideoNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 39\r\n--NoSuchElementException\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   в OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)\r\n   в OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   в SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)\r\n   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+  },
+  "stage": "finished",
+  "description": "Video Navigation\n",
+  "steps": [
+    {
+      "name": "VideoNavigation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='tabs-navigation__tab-over-inner']\"}\n  (Session info: chrome=93.0.4577.63)",
+        "trace": "   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   в YandexE2Etests.Core.Waits.ElementIsVisible(By locator) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Core\\Waits.cs:строка 21\r\n   в YandexE2Etests.Pages.BasePage.GetText(By locator) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Pages\\BasePage.cs:строка 18\r\n   в YandexE2Etests.Tests.YandexNavigationTests.VideoNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 39\r\n--NoSuchElementException\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   в OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)\r\n   в OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   в SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)\r\n   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "10227fbe406943999df7dec8ac970099-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630763870464,
+      "stop": 1630763880789
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630763870464,
+  "stop": 1630763880789
+}

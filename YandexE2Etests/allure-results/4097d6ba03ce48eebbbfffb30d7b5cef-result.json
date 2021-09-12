@@ -1,0 +1,94 @@
+{
+  "uuid": "4987d681-135f-42c0-bbf8-0b0a06ec2764-tr-0-1014",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.MarketNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.MarketNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "MarketNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "NoAssert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "MarketNavigation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:58926\r\n   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)\r\n   --- Конец трассировки внутреннего стека исключений ---\r\n   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)\r\n   в System.Net.HttpWebRequest.GetRequestStream()\r\n   в OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   в OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)",
+    "trace": "   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   в OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)\r\n   в OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   в SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   в YandexE2Etests.Core.Waits.ElementIsClickable(By locator) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Core\\Waits.cs:строка 34\r\n   в YandexE2Etests.Pages.BasePage.ButtonClick(By locator) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Pages\\BasePage.cs:строка 28\r\n   в YandexE2Etests.Tests.YandexNavigationTests.MarketNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 107"
+  },
+  "stage": "finished",
+  "description": "Market Navigation\n",
+  "steps": [
+    {
+      "name": "MarketNavigation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:58926\r\n   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)\r\n   --- Конец трассировки внутреннего стека исключений ---\r\n   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)\r\n   в System.Net.HttpWebRequest.GetRequestStream()\r\n   в OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   в OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)",
+        "trace": "   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   в OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)\r\n   в OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   в SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   в YandexE2Etests.Core.Waits.ElementIsClickable(By locator) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Core\\Waits.cs:строка 34\r\n   в YandexE2Etests.Pages.BasePage.ButtonClick(By locator) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Pages\\BasePage.cs:строка 28\r\n   в YandexE2Etests.Tests.YandexNavigationTests.MarketNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 107"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9cee5b6d3d984b38abfd4d039436bf9a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630698794335,
+      "stop": 1630698802579
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630698794335,
+  "stop": 1630698802579
+}

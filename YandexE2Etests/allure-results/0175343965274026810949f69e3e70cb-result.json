@@ -1,0 +1,91 @@
+{
+  "uuid": "e2acc243-8381-45ee-a05d-6377a9ed3322-tr-0-1016",
+  "historyId": "YandexE2Etests.Tests.YandexNavigationTests.MusicNavigation",
+  "fullName": "YandexE2Etests.Tests.YandexNavigationTests.MusicNavigation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "PHILIP"
+    },
+    {
+      "name": "testClass",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "MusicNavigation"
+    },
+    {
+      "name": "package",
+      "value": "YandexE2Etests.Tests.YandexNavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "Philip"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    },
+    {
+      "name": "subSuite",
+      "value": "Assert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "MusicNavigation",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "MusicNavigation"
+  },
+  "stage": "finished",
+  "description": "Music Navigation\n",
+  "steps": [
+    {
+      "name": "MusicNavigation",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c2991ac2df864d38b0a2dc8896dd455c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1630763595936,
+      "stop": 1630763601493
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630763595934,
+  "stop": 1630763601493
+}

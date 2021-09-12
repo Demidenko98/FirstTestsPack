@@ -1,0 +1,46 @@
+{
+  "uuid": "72fae50f-602e-470f-9a7a-b554fcb36a2b-tc-0-1009",
+  "name": "YandexE2Etests.Tests.YandexNavigationTests.MarketNavigation",
+  "children": [
+    "c71e85f4-2d34-476c-b733-1a313556e830-tr-0-1014"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1631008277165,
+      "stop": 1631008277165
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchWindowException : no such window: window was already closed\n  (Session info: chrome=93.0.4577.63)\r\nTearDown : OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=93.0.4577.63)",
+        "trace": "   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)\r\n   в OpenQA.Selenium.By.<>c__DisplayClass16_0.<Id>b__0(ISearchContext context)\r\n   в OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   в SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)\r\n   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   в YandexE2Etests.Core.Waits.ElementIsVisible(By locator) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Core\\Waits.cs:строка 21\r\n   в YandexE2Etests.Pages.BasePage.ElementIsDisplayed(By locator) в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Pages\\BasePage.cs:строка 50\r\n   в YandexE2Etests.Tests.YandexNavigationTests.MarketNavigation() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\YandexNavigationTests.cs:строка 115\r\n--TearDown\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Close()\r\n   в YandexE2Etests.Core.DriverWrapper.Close() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Core\\DriverWrapper.cs:строка 56\r\n   в YandexE2Etests.BaseTests.CloseBrowser() в D:\\papka\\AQA\\YandexE2Etests\\YandexE2Etests\\Tests\\BaseTests.cs:строка 31"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1631008277166,
+      "stop": 1631008277166
+    }
+  ],
+  "links": [],
+  "start": 1631008270885,
+  "stop": 1631008277272
+}
