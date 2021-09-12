@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace YandexE2Etests.Core
 {
-    class Waits
+   public class Waits
     {
         IWebDriver insDriver = DriverWrapper.GetInstance().CurrentDriver;
         public IWebElement ElementIsVisible(By locator)
@@ -23,6 +23,17 @@ namespace YandexE2Etests.Core
             //WebDriverWait wait = new WebDriverWait(insDriver, TimeSpan.FromSeconds(10));
             //IWebElement searchResult = wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementExists(locator));
             //return searchResult;
+        }
+
+        public void ElementWithTextIsVisible(By locator, string text)
+        {
+            DefaultWait<IWebDriver> fluentWait = new DefaultWait<IWebDriver>(insDriver)
+            {
+                Timeout = TimeSpan.FromSeconds(10),
+                PollingInterval = TimeSpan.FromMilliseconds(250)
+            };
+            fluentWait.IgnoreExceptionTypes(typeof(NoSuchElementException));
+            fluentWait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.TextToBePresentInElementLocated(locator, text));
         }
 
         public IWebElement ElementIsClickable(By locator)

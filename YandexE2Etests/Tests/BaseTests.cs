@@ -14,19 +14,19 @@ namespace YandexE2Etests
     public class BaseTests
     {
 
-        DriverWrapper driver = DriverWrapper.GetInstance();
+       protected DriverWrapper driver =  DriverWrapper.GetInstance();
 
         [SetUp]
         public void OneTimeSetUp()
         {
-         //   new BasePage().SwitchToParentVideo();
+            
         }
 
 
         [TearDown]
-        public void CloseBrowser()
+        public void QuitBrowser()
         {
-           // driver.Close();
+            driver.Quit();
         }
 
     }

@@ -9,15 +9,15 @@ using YandexE2Etests.Core;
 
 namespace YandexE2Etests.Pages
 {
-    class MainPage
+    public class MainPage: BasePage
     {
-        IWebDriver InsDriver = DriverWrapper.GetInstance().CurrentDriver;
-        Waits waits = new Waits();
+        IWebDriver insDriver = DriverWrapper.GetInstance().CurrentDriver;
+       
 
         By elseBtnOnMainPageLoc = By.XPath("//*[@data-statlog='services_new.more']");
         By cityOnMainPageLoc = By.ClassName("geolink__reg");
         By inputCityFieldOnGeoPageLoc = By.XPath("//*[@class='input__control input__input']");
-        By firstCityinDropdownLoc = By.XPath("//*[@class='popup__content']/ul/li[1]");
+        By firstCityinDropdownLoc = By.XPath("//*[@class='popup__content']/ul/li[1]/div[1]");
 
         public readonly By videoButtonOnMainPage = By.XPath("//*[@data-id='video']");
         public readonly By picturesButtonOnMainPage = By.XPath("//*[@data-id='images']");
@@ -32,9 +32,9 @@ namespace YandexE2Etests.Pages
 
         public string[] GetAllElementsFromPopUp()
         {
-            IWebElement elsePopupMainPage = waits.ElementIsVisible(elseBtnOnMainPageLoc); //открываю поп ап еще
-            elsePopupMainPage.Click();
-            IList<IWebElement> all = InsDriver.FindElements(By.XPath("//*[@class='services-new__more-popup-content']"));
+          
+            ButtonClick(elseBtnOnMainPageLoc);  //открываю поп ап еще
+            IList<IWebElement> all = insDriver.FindElements(By.XPath("//*[@class='services-new__more-popup-content']"));
 
             string[] allText = new string[all.Count];
             int i = 0;
@@ -48,17 +48,22 @@ namespace YandexE2Etests.Pages
 
         public void ChangeLocationOnMainPage(string city)
         {
-            IWebElement cityOnMainPage = waits.ElementIsVisible(cityOnMainPageLoc);
-            cityOnMainPage.Click();
+          
+            ButtonClick(cityOnMainPageLoc);
+            ClearInputField(inputCityFieldOnGeoPageLoc);       
+            SendKeys(inputCityFieldOnGeoPageLoc, city);
+           
+            if (city == "Париж")
+            {
+                ElementWithDefinedTextIsVisible(firstCityinDropdownLoc, "Париж");
+                ButtonClick(firstCityinDropdownLoc);
+            }
+            else if (city == "Лондон")
+            {
+                ElementWithDefinedTextIsVisible(firstCityinDropdownLoc, "Лондон");
+                ButtonClick(firstCityinDropdownLoc);
+            }
 
-            IWebElement inputCityFieldOnGeoPage = waits.ElementIsVisible(inputCityFieldOnGeoPageLoc);
-            inputCityFieldOnGeoPage.Clear();
-            Thread.Sleep(1000);
-            inputCityFieldOnGeoPage.SendKeys(city);
-            Thread.Sleep(1000);    //Тест настолько быстро проходит, что waits не справлялся и пришлось затормозить через потоки
-            IWebElement firstCityinDropdown = waits.ElementIsVisible(firstCityinDropdownLoc);
-
-            firstCityinDropdown.Click();
         }
     }
 }

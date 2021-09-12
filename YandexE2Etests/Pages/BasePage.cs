@@ -8,46 +8,51 @@ using YandexE2Etests.Core;
 
 namespace YandexE2Etests.Pages
 {
-    class BasePage
+   public class BasePage: Waits
     {
-        Waits waits = new Waits();
+       
 
-        IWebDriver InsDriver = DriverWrapper.GetInstance().CurrentDriver;
+        IWebDriver insDriver = DriverWrapper.GetInstance().CurrentDriver;
         public string GetText(By locator)
         {
-            return waits.ElementIsVisible(locator).Text;
+            return ElementIsVisible(locator).Text;
         }
 
         public void SendKeys(By locator, string text)
         {
-            waits.ElementIsVisible(locator).SendKeys(text);
+            ElementIsVisible(locator).SendKeys(text);
         }
 
         public void ButtonClick(By locator)
         {
-            waits.ElementIsClickable(locator).Click();
+            ElementIsClickable(locator).Click();
         }
 
         public string GetUrl()
         {
-            return InsDriver.Url;
+            return insDriver.Url;
         }
 
         public void GoToFrame(int framenumber)
         {
-            InsDriver.SwitchTo().Window(InsDriver.WindowHandles[framenumber]);
+            insDriver.SwitchTo().Window(insDriver.WindowHandles[framenumber]);
         }
 
-        public void SwitchToParentVideo()
+        public void ElementWithDefinedTextIsVisible(By locator, string text)
         {
-            string winHandleBefore = InsDriver.CurrentWindowHandle;
-
-            InsDriver.SwitchTo().Window(winHandleBefore); 
+            ElementWithTextIsVisible(locator, text);
         }
+
 
         public void ElementIsDisplayed(By locator)
         {
-            waits.ElementIsVisible(locator);
+            ElementIsVisible(locator);
+        }
+
+        public void ClearInputField(By locator)
+        {
+            ElementIsVisible(locator).Clear();
+           
         }
 
 

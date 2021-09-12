@@ -10,23 +10,24 @@ using YandexE2Etests.Pages;
 namespace YandexE2Etests.Tests
 {
     [TestFixture]
-    class LanguageTests
-    {
-        MainPage mainPage = new MainPage();
-        BasePage basePage = new BasePage();
-
+   public class LanguageTests: BaseTests
+   {
+      
         [Test]
         public void SwitchLanguageToEn()
         {
+            MainPage mainPage = new MainPage();
+            BasePage basePage = new BasePage();
+            LanguagePage languagePage = new LanguagePage();
             basePage.ButtonClick(mainPage.languageBtnLocatorOnMainPage);
             basePage.ButtonClick(mainPage.elseBtnLocatorOnMainPage);
-            basePage.ButtonClick(By.XPath("//*[@class='button select__button button_theme_normal button_arrow_down button_size_m i-bem button_js_inited']")); //openDropDownBtnLocOnLanguagePage  
-            basePage.ButtonClick(By.XPath("//*[@class='select__list']/div[6]")); //enLangBtnLoc
-            basePage.ButtonClick(By.XPath("//*[@type='submit']")); // saveLangBtnLocOnLangiagePage
+            basePage.ButtonClick(languagePage.openDropDownBtnLocOnLanguagePage);   
+            basePage.ButtonClick(languagePage.enLangBtnLoc); 
+            basePage.ButtonClick(languagePage.saveLangBtnLocOnLanguagePage); 
             string actualLangText = basePage.GetText(mainPage.languageBtnLocatorOnMainPage);
             Assert.AreEqual("En", actualLangText);// Comparing expected language mathes to the actualLangText
 
         }
 
-    }
+   }
 }

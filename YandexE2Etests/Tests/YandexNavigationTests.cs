@@ -3,25 +3,16 @@ using NUnit.Allure.Attributes;
 using NUnit.Allure.Core;
 using NUnit.Framework;
 using OpenQA.Selenium;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 using YandexE2Etests.Pages;
 
 namespace YandexE2Etests.Tests
 {
     [TestFixture]
     [AllureNUnit]
-    //[Parallelizable(ParallelScope.Children)]
+  //  [Parallelizable(ParallelScope.Self)]
     public class YandexNavigationTests: BaseTests
     {
-
-        BasePage basePage = new BasePage();
-        MainPage mainPage = new MainPage();
-
-       
         [Test(Description = "Video Navigation")]
         [AllureTag("Functional")]
         [AllureSeverity(SeverityLevel.critical)]
@@ -32,7 +23,8 @@ namespace YandexE2Etests.Tests
         [AllureSubSuite("Assert")]
         public void VideoNavigation()
         {
-            basePage.GoToFrame(0);
+            BasePage basePage = new BasePage();
+            MainPage mainPage = new MainPage();
             basePage.ButtonClick(mainPage.videoButtonOnMainPage);
             basePage.GoToFrame(1);
             By videoButtonOnVideoPage = By.XPath("//*[@class='tabs-navigation__tab-over-inner']");
@@ -50,13 +42,13 @@ namespace YandexE2Etests.Tests
         [AllureSubSuite("Assert")]
         public void PicturesNavigation()
         {
-            basePage.GoToFrame(0);
+            BasePage basePage = new BasePage();
+            MainPage mainPage = new MainPage();
             basePage.ButtonClick(mainPage.picturesButtonOnMainPage);
             basePage.GoToFrame(1);
             string expectedImagePageUrl = "https://yandex.by/images/?utm_source=main_stripe_big";
             string actualImagePageUrl = basePage.GetUrl();
             Assert.AreEqual(expectedImagePageUrl, actualImagePageUrl);   //The expectedImagePageUrl mathes to the actualImagePageUrl on opened page
-
         }
 
 
@@ -71,9 +63,11 @@ namespace YandexE2Etests.Tests
         [AllureSubSuite("Assert")]
         public void NewsNavigation()
         {
-            basePage.GoToFrame(0);
+            BasePage basePage = new BasePage();
+            MainPage mainPage = new MainPage();
             basePage.ButtonClick(mainPage.newsButtonOnMainPage);
             basePage.GoToFrame(1);
+            Thread.Sleep(2000);
             string expectedNewsPageUrl = "https://yandex.by/news/?utm_source=main_stripe_big";
             string actualNewsPageUrl = basePage.GetUrl();
             Assert.AreEqual(expectedNewsPageUrl, actualNewsPageUrl);  //The expectedNewsPageUrl mathes to the actualNewsPageUrl on opened page
@@ -90,7 +84,8 @@ namespace YandexE2Etests.Tests
         [AllureSubSuite("Assert")]
         public void MapsNavigation()
         {
-            basePage.GoToFrame(0);
+            BasePage basePage = new BasePage();
+            MainPage mainPage = new MainPage();
             basePage.ButtonClick(mainPage.mapsButtonOnMainPage);
             basePage.GoToFrame(1);
             string actualMapsPageUrl = basePage.GetUrl();
@@ -108,8 +103,8 @@ namespace YandexE2Etests.Tests
         [AllureSubSuite("NoAssert")]
         public void MarketNavigation()
         {
-            basePage.GoToFrame(0);
-            basePage.GoToFrame(0);
+            BasePage basePage = new BasePage();
+            MainPage mainPage = new MainPage();
             basePage.ButtonClick(mainPage.marketButtonOnMainPage);
             basePage.GoToFrame(1);
             basePage.ElementIsDisplayed(By.Id("logoPartMarket")); //marketLogo is present on opened page 
@@ -125,8 +120,8 @@ namespace YandexE2Etests.Tests
         [AllureSubSuite("Assert")]
         public void TranslateNavigation()
         {
-            basePage.GoToFrame(0);
-            basePage.GoToFrame(0);
+            BasePage basePage = new BasePage();
+            MainPage mainPage = new MainPage();
             basePage.ButtonClick(mainPage.translateButtonOnMainPage);
             basePage.GoToFrame(1);
             string expectedTranslatePageUrl = "https://translate.yandex.by/?utm_source=main_stripe_big";
@@ -145,7 +140,8 @@ namespace YandexE2Etests.Tests
         [AllureSubSuite("Assert")]
         public void MusicNavigation()
         {
-            basePage.GoToFrame(0);
+            BasePage basePage = new BasePage();
+            MainPage mainPage = new MainPage();
             basePage.ButtonClick(mainPage.musicButtonOnMainPage);
             basePage.GoToFrame(1);
             string expectedMusicPageUrl = "https://music.yandex.by/home?utm_source=main_stripe_big";

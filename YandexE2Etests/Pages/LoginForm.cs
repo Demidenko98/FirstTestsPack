@@ -1,13 +1,10 @@
 ﻿using OpenQA.Selenium;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
 using System.Configuration;
 namespace YandexE2Etests.Pages
+
 {
-    class LoginForm : BasePage
+   public class LoginForm : BasePage
     {
         public readonly By enterButtonOnMainPageLocator = By.XPath("//*[@data-statlog='notifications.mail.logout.enter']");
         public readonly By loginFormLocator = By.ClassName("Textinput-Control");
@@ -24,7 +21,7 @@ namespace YandexE2Etests.Pages
         string email = ConfigurationManager.AppSettings["email"];
         string password = ConfigurationManager.AppSettings["password"];
 
-
+       
         public void Authorization()
         {
             BasePage basePage = new BasePage();

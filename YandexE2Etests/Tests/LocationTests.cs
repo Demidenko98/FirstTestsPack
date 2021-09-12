@@ -5,21 +5,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using YandexE2Etests.Pages;
+using YandexE2Etests.Core;
 
 namespace YandexE2Etests.Tests
 {
     [TestFixture]
-    class LocationTests
+   public class LocationTests: BaseTests
     {
-        MainPage mainPage = new MainPage();
 
         [Test]
         public void ChangeLocationAndCheckElsePopUp()
         {
-            mainPage.ChangeLocationOnMainPage("Лондон");
+            MainPage mainPage = new MainPage();
+            mainPage.ChangeLocationOnMainPage(Variables.londonCity);
             string[] londonElsePopupContent = mainPage.GetAllElementsFromPopUp();
 
-            mainPage.ChangeLocationOnMainPage("Париж");
+            mainPage.ChangeLocationOnMainPage(Variables.parisCity);
             string[] parisElsePopupContent = mainPage.GetAllElementsFromPopUp();
 
             CollectionAssert.AreEqual(londonElsePopupContent, parisElsePopupContent); //Comparing that londonElsePopupContent array mathes to the parisElsePopupContent

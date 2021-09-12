@@ -8,15 +8,14 @@ namespace YandexE2Etests.Tests
 {
     [TestFixture]
     [AllureNUnit]
-    class YandexLoginTests
+    public class YandexLoginTests: BaseTests
     {
-
-        LoginForm loginForm = new LoginForm();
-        BasePage basePage = new BasePage();
 
         [Test]
         public void LogInAndCheckAccName()
         {
+            LoginForm loginForm = new LoginForm();
+            BasePage basePage = new BasePage();
             loginForm.Authorization();
             string accountName = basePage.GetText(loginForm.accountNameLocator);
             Assert.AreEqual("here is my login", accountName);  //Comparing That user is authorized and his nickname is displayed on page
@@ -26,6 +25,8 @@ namespace YandexE2Etests.Tests
         [Test]
         public void CheckIfUserCanLogOut()
         {
+            LoginForm loginForm = new LoginForm();
+            BasePage basePage = new BasePage();
             loginForm.Authorization();
             basePage.ButtonClick(loginForm.accountNameLocator);
             basePage.ButtonClick(loginForm.logOutButtonLocator);
@@ -37,7 +38,8 @@ namespace YandexE2Etests.Tests
         [Test]
         public void InvalidPass()
         {
-            //NoAutotestPassword - invalid password
+            LoginForm loginForm = new LoginForm();
+            BasePage basePage = new BasePage();
             basePage.ButtonClick(loginForm.enterButtonOnMainPageLocator);
             loginForm.EnterLogin();
             basePage.ButtonClick(loginForm.enterButtonOnLoginFormLocator);
@@ -50,8 +52,8 @@ namespace YandexE2Etests.Tests
         [Test]
         public void InvalidLogin()
         {
-            //NoAutotestUser - invalid login
-
+            LoginForm loginForm = new LoginForm();
+            BasePage basePage = new BasePage();          
             basePage.ButtonClick(loginForm.enterButtonOnMainPageLocator);
             loginForm.EnterLogin();
             basePage.ButtonClick(loginForm.enterButtonOnLoginFormLocator);
